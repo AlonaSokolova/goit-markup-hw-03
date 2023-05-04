@@ -76,6 +76,7 @@
         .page-header {
             display: flex;
             align-items: center;
+            border-bottom: 1px solid #e7e9fc
         }
 
         .top-navigation {
@@ -116,6 +117,9 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--primery-text-color-theme-light);
+            padding-top: 24px;
+            padding-bottom: 24px;
+
         }
         
         .menu-link:hover,
@@ -160,6 +164,8 @@
         
         .feauter-one {
             background-color: #2E2F42;
+            padding-top: 188px;
+            padding-bottom: 188px;
         }
         .main-header {
             font-family: var(--primary-font);
@@ -170,6 +176,9 @@
             letter-spacing: 0.02em;
             text-align: center;
             color: #FFFFFF;
+            max-width: 496px;
+            margin-bottom: 48px;
+            margin: auto;
         
         }
         .button {
@@ -182,6 +191,15 @@
             color: #FFFFFF;
             background: #4D5AE5;
             cursor: pointer;
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            border-radius: 4px;
+            padding: 16px, 32px, 16px, 32px; 
+            margin: auto;
+            margin-top: 48px;
+
         }
         .button:hover,
         .button:focus {
