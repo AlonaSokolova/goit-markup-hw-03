@@ -1,0 +1,314 @@
+        :root {
+         --primary-font: 'Roboto', sans-serif;
+         --secondary-font: 'Raleway', sans-serif;
+         --primery-text-color-theme-dark: #FFFFFF;
+         --secondary-text-color-theme-dark: #F4F4FD;
+         --primery-text-color-theme-light: #2E2F42;
+         --secondary-text-color-theme-light: #434455;
+         --accent-color: #404BBF;
+        }
+   
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #434455;
+            background-color: #FFFFFF;
+        }
+        .container {
+            width: 1158px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .list {
+            list-style: none;
+        }
+        
+        .link {
+            text-decoration: none;
+        }
+        .page-header {
+             background-color: #FFFFFF;
+        }
+        .modal-btn {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            text-transform: uppercase;
+            color: var(--primery-text-color-theme-light);
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        img {
+            display: block;
+        }
+
+        /* Header*/
+
+
+        .page-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .top-navigation {
+            display: flex;
+            align-items: center;
+        }
+        .menu {
+            display: flex;
+        }
+        .logo {
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4D5AE5;
+        
+        }
+        .studio-logo {
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            text-transform: uppercase;
+            color: #2E2F42;
+        
+        }
+        .menu-link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--primery-text-color-theme-light);
+        }
+        
+        .menu-link:hover,
+        .menu-link:focus {
+            color: var(--accent-color);
+        }
+        .adress {
+            font-style: normal;
+            display: flex;
+        }
+        
+        .adress-contact {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        
+        }
+        .adress-contact:hover,
+        .adress-contact:focus {
+            color: var(--accent-color);
+        }
+        
+        .feauter-one {
+            background-color: #2E2F42;
+        }
+        .main-header {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #FFFFFF;
+        
+        }
+        .button {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            background: #4D5AE5;
+            cursor: pointer;
+        }
+        .button:hover,
+        .button:focus {
+            background-color: var(--accent-color);
+        }
+       
+        .section {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2E2F42;
+        
+        }
+        .section-description {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em; 
+            color: #434455;
+        
+        }
+        .section-header {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            text-transform: capitalize;
+            color: #2E2F42;
+        }
+        .section-img {
+            box-sizing: border-box;
+            width: 360px;
+            height: 300px;
+    
+        }
+        
+        .feauter-four {
+            background-color: #F4F4FD;
+        }
+        .section-header-title {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            text-transform: capitalize;
+            color: var(--primery-text-color-theme-light);
+        }
+        .section-header-item {
+            background-color: #FFFFFF;
+        }
+        .section-team {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: var(--primery-text-color-theme-light);
+        }
+        .section-description-text {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: var(--secondary-text-color-theme-light);
+
+        }
+
+        .footer {
+            background-color: #2E2F42;
+        }
+
+        .studio-logo-footer {
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #F4F4FD;
+        
+        }
+        .footer-text {
+           
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--primery-text-color-theme-dark);
+        }
+       /* portfolio*/
+
+       .button-portfolio {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4D5AE5;
+            background-color: #F4F4FD;
+            cursor: pointer;
+       }
+       .button-portfolio:hover,
+       .button-portfolio:focus {
+            color: #FFFFFF;
+            background-color: var(--accent-color);
+       }
+        .button-click {
+            font-family: var(--primary-font);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            color: #4D5AE5;
+
+        }
+        .section-work-item {
+            text-decoration: none 
+        }
+        .section-work-subject {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--primery-text-color-theme-light);
+        }   
+        .section-work-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--secondary-text-color-theme-light); 
+        }
+
+
+
+    
