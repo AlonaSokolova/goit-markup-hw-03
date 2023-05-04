@@ -68,6 +68,8 @@
 
         img {
             display: block;
+            overflow-clip-margin: content-box;
+            overflow: clip;
         }
 
         /* Header*/
@@ -232,6 +234,7 @@
         
         }
         .section-description {
+            text-align: start;
             font-family: var(--primary-font);
             font-style: normal;
             font-weight: 400;
@@ -239,6 +242,7 @@
             line-height: 1.5;
             letter-spacing: 0.02em; 
             color: #434455;
+            margin: 0;
 
         }
 
@@ -298,26 +302,45 @@
             text-align: center;
             text-transform: capitalize;
             color: var(--primery-text-color-theme-light);
-            margin-bottom: 120px;
+            margin-bottom: 72px;
+            margin-top: 0;
+        }
+        .section-header-list:last-child {
+            margin-right: 0;
         }
         .section-header-list {
-
             padding: 0 15px;
             gap: 24px
+        }
+        .team-company {
+            flex-basis: calc((100% - 72px) / 4);
         }
         .section-header-item {
             background-color: #FFFFFF;
             width: 264px;
             height: 380px;
-            width: calc((100% - 72px) / 4);
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
+            width: calc((100% - 72px) / 4);
+            padding: 0px 0px 32px;
+            gap: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         .name-position {
-            padding-left: 16px;
-            padding-right: 16px;
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding: 32px 16px;
+        }
+        .secondary-section-img {
+            width: 264px;
+            width: 264px;
+            height: 260px;
+            mix-blend-mode: normal;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
         }
         
         .section-team {
@@ -345,6 +368,8 @@
 
         }
 
+        /*footer*/
+
         .footer {
             background-color: #2E2F42;
             margin: auto;
@@ -371,7 +396,9 @@
             margin-bottom: 16px;
         }
         .footer-text {
-           
+            margin: 0;
+            max-width: 264px;
+            letter-spacing: 0.02em;
             font-family: var(--primary-font);
             font-style: normal;
             font-weight: 400;
