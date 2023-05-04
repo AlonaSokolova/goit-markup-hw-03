@@ -22,6 +22,9 @@
         }
         .list {
             list-style: none;
+            flex-wrap: wrap;
+            margin-top: 0;
+            margin-bottom: 0;
         }
         
         .link {
@@ -29,7 +32,14 @@
         }
         .page-header {
              background-color: #FFFFFF;
+             border-bottom: 1px solid #e7e9fc
         }
+        .page-header-container {
+            display: flex;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
         .modal-btn {
             font-family: var(--primary-font);
             font-style: normal;
@@ -74,6 +84,7 @@
         }
         .menu {
             display: flex;
+            gap: 40px;
         }
         .logo {
             font-family: var(--secondary-font);
@@ -85,6 +96,7 @@
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4D5AE5;
+            margin-right: 76px
         
         }
         .studio-logo {
@@ -113,6 +125,7 @@
         .adress {
             font-style: normal;
             display: flex;
+            align-items: center;
         }
         
         .adress-contact {
@@ -123,11 +136,26 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            display: block;
+            margin-top: 24px;
+            margin-bottom: 24px;
         
         }
+        ::after, ::before {
+            box-sizing: border-box;
+        }
+
         .adress-contact:hover,
         .adress-contact:focus {
             color: var(--accent-color);
+        }
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .contact-item {
+            display: list-item;
         }
         
         .feauter-one {
