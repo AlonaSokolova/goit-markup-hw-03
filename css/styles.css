@@ -433,6 +433,18 @@
         }
        /* portfolio*/
 
+
+       .portfolio-btn {
+        padding: 96px 0 120px
+       }
+
+       .button-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px; 
+        margin-bottom: 72px;
+       }
+
        .button-portfolio {
             font-family: var(--primary-font);
             font-style: normal;
@@ -443,6 +455,9 @@
             color: #4D5AE5;
             background-color: #F4F4FD;
             cursor: pointer;
+            padding: 12px 24px;
+            border: 1px solid #e7e9fc;
+            border-radius: 4px;
        }
        .button-portfolio:hover,
        .button-portfolio:focus {
