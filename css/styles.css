@@ -463,6 +463,7 @@
        .button-portfolio:focus {
             color: #FFFFFF;
             background-color: var(--accent-color);
+            border: 1px solid;
        }
         .button-click {
             font-family: var(--primary-font);
@@ -474,8 +475,17 @@
             color: #4D5AE5;
 
         }
+        .work-items-portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+            padding: 15px 0;
+        }
+
         .section-work-item {
-            text-decoration: none 
+            text-decoration: none
+            
         }
         .section-work-subject {
             font-style: normal;
