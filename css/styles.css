@@ -68,10 +68,12 @@
 
         img {
             display: block;
-            overflow-clip-margin: content-box;
-            overflow: clip;
+           
         }
-
+        li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
         /* Header*/
 
 
@@ -353,6 +355,7 @@
             text-align: center;
             color: var(--primery-text-color-theme-light);
             text-align: center;
+            margin-bottom: 8px
             
         }
         .section-description-text {
