@@ -12,7 +12,10 @@
             font-family: 'Roboto', sans-serif;
             color: #434455;
             background-color: #FFFFFF;
+            
+            /*display: block;*/
         }
+        
         .container {
             width: 1158px;
             margin-left: auto;
@@ -150,9 +153,9 @@
             margin-bottom: 24px;
         
         }
-        ::after, ::before {
+        /*::after, ::before {
             box-sizing: border-box;
-        }
+        }*/
 
         .adress-contact:hover,
         .adress-contact:focus {
@@ -336,6 +339,7 @@
             background-color: #F4F4FD;
             padding-top: 120px;
             padding-bottom: 120px;
+            
         }
         .section-header-title {
             font-family: var(--primary-font);
@@ -415,12 +419,14 @@
 
         .footer {
             background-color: #2E2F42;
-            margin: auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            /*margin: auto;
             width: 1440px;
             height: 312px;
             padding-top: 100px;
             padding-bottom: 100px;
-            position: absolute;
+            position: absolute;*/
         }
 
         .studio-logo-footer {
