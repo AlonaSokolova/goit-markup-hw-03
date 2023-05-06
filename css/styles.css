@@ -436,7 +436,7 @@
         }
 
         .logo-footer {
-           
+            display: inline-block;
             margin-bottom: 16px;
         }
         .footer-text {
